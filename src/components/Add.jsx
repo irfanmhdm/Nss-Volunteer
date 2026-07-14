@@ -29,7 +29,7 @@ const Add = () => {
     const readValue = () => {
         console.log(input);
 
-        axios.post("http://localhost:3000/add_nss", input)
+        axios.post("http://localhost:3000/add-nss", input)
             .then((response) => {
                 console.log(response.data);
                 alert("Volunteer Added Successfully!");
