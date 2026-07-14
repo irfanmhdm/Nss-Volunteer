@@ -25,7 +25,7 @@ const View = () => {
       <h3 className="text-center mb-3">Volunteer Details</h3>
 
       <div className="table-responsive">
-        <table className="table table-bordered table-striped table-hover">
+        <table className="table table-bordered table-striped table-hover ">
           <thead className="table-dark">
             <tr>
               <th>Volunteer ID</th>
